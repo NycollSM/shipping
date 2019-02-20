@@ -1,0 +1,12 @@
+.tab--btn {
+  display: inline-block;
+  width: 45%;
+  border: 2px solid rebeccapurple; }
+
+.active {
+  visibility: visible; }
+
+.off {
+  visibility: hidden; }
+
+/*# sourceMappingURL=styles.css.map */

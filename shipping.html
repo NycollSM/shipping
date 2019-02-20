@@ -5,26 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
 </head>
 <body>
     <div class="main-container">
         <h2>How do you want to send your return?</h2>
         <h4>Returns can be shipped with a flat-rate UPS label or by your choice of package carrier.</h4>
           
-        <div class="ui-shipping-info-container js-tabs">
-          <div id="tab1"> 
+        <div id="tabs">
+          <div id="tab1" class="tab--btn"> 
             <p>Flat Rate UPS Label</p>
             <span class="small">You Pay: $6.99</span>
           </div>
-          <div id="tab2">
-            <p">Ship It Yourself</p>
+          <div id="tab2" class="tab--btn">
+            <p>Ship It Yourself</p>
             <span class="small">You Pay: Full Price from Your Preferred Carrier</span>
           </div>
       
       
-          <div id="tab1--content" class="tab1-content tab1 ui-tabs-panel">
+          <div id="tab1--content" class="tab__content active">
             <p>Click Print UPS Label, attach the label to your return package, and drop the package off at a UPS location. Use the <a href="https://www.ups.com/dropoff" target="_blank">UPS Store Locator.</a></p>
             <p>If your return qualifies for a refund, we will reimburse you the refund amount via your original payment method, minus $6.99 for the UPS label.</p>
             <button>Print UPS Label</button>
@@ -45,7 +44,7 @@
             <span class="reminder--step1">* USA only</span>
           </div>
       
-          <div id="tab2--content" class="tab-content tab2 ui-tabs-panel">
+          <div id="tab2--content" class="tab_content off">
             <div class="step__item">
               <div class="step__item--tab2">
                 <img src="" class="icon box-icon">
@@ -84,5 +83,6 @@
           <p class="notice">Need more information about our returns policy, returns shipping, or making a return? Visit the <a href="#">Returns Help Page.</a></p>
         </div>
       </div>
+      <script src="javascript/script.js"></script>
 </body>
 </html>
