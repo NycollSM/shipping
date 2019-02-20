@@ -3,6 +3,7 @@
 // esta clase va a ser cambiada por main-content
 <h2 class="title"></h2> 
   //la clase title no es necesaria porque es una etiqueta de titulo
+  
   <p class="subtitle"></p> 
   //esta etiqueta puede ser cambiado por un h3 o h4
 
