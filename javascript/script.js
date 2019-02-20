@@ -17,8 +17,15 @@ function tabs (){
       contentTabs.map(content => content.classList.remove('active'));
       contentTabs.map(content => content.classList.add('off'));
       contentTabs[i].classList.remove('off');
-      contentTabs[i].classList.add('active');
-    }
+      contentTabs[i].classList.add('active');    
+        
+    }if (window.matchMedia("(max-width: 600px)").matches){
+          tab1.appendChild(content1);
+          tab2.appendChild(content2);
+      } else {
+        tab1.removeChild(content1);
+        tab2.removeChild(content2);
+      }
   }
   btns.addEventListener('click', showContent);
 }tabs();   

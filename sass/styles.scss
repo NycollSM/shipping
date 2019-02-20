@@ -1,11 +1,27 @@
 .tab--btn{
   display: inline-block;
-  width: 45%;
-  border:2px solid rebeccapurple;
+  width: 40%;
+  height: 200px;
+  border: 2px solid #49595a;
+}
+.tab--btn > p {
+  display: inline-block;
 }
 .active{
   visibility: visible;
 }
 .off{
   visibility: hidden;
+}
+
+@media (max-width: 600px){
+  .tab--btn{
+    height: 100px;
+    display: inline;
+    //position: relative;
+    border: 2px solid #49595a;
+  }
+  .tab__content{
+    //position: absolute;
+  }
 }
