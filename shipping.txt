@@ -18,7 +18,8 @@
       </li>
     </ul>
 
-    <div id="tabs-1" class="tab-content tab1 ui-tabs-panel">
+    <div id="tabs-1" class="tab-content tab1 ui-tabs-panel"> 
+    // las clases no son legibles y van a ser cambiadas por class="tab__content active"
       <p>
         Click Print UPS Label, attach the label to your return package, and drop the package off at a UPS location. Use the <a href="https://www.ups.com/dropoff" target="_blank">UPS Store Locator.</a>
       </p>
@@ -29,10 +30,14 @@
         <a href="#" class="btn btn--primary qa-create-ups-label">Print UPS Label</a> eliminar <a>
       </p>
 
-      <div class="steps">
+      <div class="steps"> 
+      // cambiar por class="tab1__steps"
         <div class="step">
-          <div class="icon box-icon"></div>
+        // clase class="step__item"
+          <div class="icon box-icon"></div> 
+          // cambiar div por imagen con clase "step__icon"
           <span class="big-number">1</span>
+          // poner el texto dentro del span sinh la clase porque no aporta nada 
           Package your return in a box
         </div>
         <div class="step">
@@ -46,7 +51,7 @@
           Drop package off at a <a href="https://www.ups.com/dropoff" target="_blank">UPS Location</a>
         </div>
       </div>
-      <span class="tiny">* USA only</span>
+      <span class="tiny">* USA only</span> clase "tiny" no se entiende y fue cambiada por "reminder"
     </div>
 
     <div id="tabs-2" class="tab-content tab2 ui-tabs-panel">
