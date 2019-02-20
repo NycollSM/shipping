@@ -25,8 +25,8 @@
       <p>
         If your return qualifies for a refund, we will reimburse you the refund amount via your original payment method, minus $6.99 for the UPS label.
       </p>
-      <p class="shipping-print-action">
-        <a href="#" class="btn btn--primary qa-create-ups-label">Print UPS Label</a>
+      <p class="shipping-print-action"> cambiar por un boton por semantica
+        <a href="#" class="btn btn--primary qa-create-ups-label">Print UPS Label</a> eliminar <a>
       </p>
 
       <div class="steps">

@@ -9,99 +9,80 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="main-content">
+    <div class="main-container">
         <h2>How do you want to send your return?</h2>
         <h4>Returns can be shipped with a flat-rate UPS label or by your choice of package carrier.</h4>
-
-            <div id="tab1">
-                <p>Flat Rate UPS Label</p>
-                <p >You Pay: $6.99</p>
-            </div>  
-              
-            <div class="tab-content tab1 ui-tabs-panel">
-            <p>Click Print UPS Label, attach the label to your return package, and drop the package off at a UPS location. Use the <a href="https://www.ups.com/dropoff" target="_blank">UPS Store Locator.</a></p>
-            <p>
-              If your return qualifies for a refund, we will reimburse you the refund amount via your original payment method, minus $6.99 for the UPS label.
-            </p>
-            <button>Print UPS Label</button>
-          </div>
-          <div class="steps">
-            <div class="step">
-                <img class="icon step1__item"></img>
-                <p>1.Package your return in a box</p>      
-            </div>
-            <div class="step">
-                  <img class="icon step2__item"></img >
-                  <span class="big-number">2</span>
-                  Attach UPS label to box
-            </div>
-            <div class="step">
-                  <img src="#" class="icon step3__item"></img>
-                  <span class="big-number">3</span>
-                  Drop package off at a <a href="https://www.ups.com/dropoff" target="_blank">UPS Location</a>
-            </div> 
-                <span class="tiny">* USA only</span>
-            </div>
-            
-
-
-
-
-
-
-            <!--div 2-->
-            <div id="tab2">
-                <p>Ship It Yourself</p>
-                <p>You Pay: Full Price from Your Preferred Carrier</p>
-            </div>
-          </ul>
           
+        <div class="ui-shipping-info-container js-tabs">
+          <div id="tab1"> 
+            <p>Flat Rate UPS Label</p>
+            <span class="small">You Pay: $6.99</span>
+          </div>
+          <div id="tab2">
+            <p">Ship It Yourself</p>
+            <span class="small">You Pay: Full Price from Your Preferred Carrier</span>
+          </div>
       
-          <div id="tabs-2" class="tab-content tab2 ui-tabs-panel">
-            <div class="steps">
-              <div class="step">
-                <div class="icon box-icon"></div>
-                <span class="big-number">1</span>
-                Package your return in a box
-              </div>
-              <div class="step">
-                <div class="icon pen-icon"></div>
-                <span class="big-number">2</span>
-                Write Return Number on box
-              </div>
-              <div class="step">
-                <div class="icon mailbox-icon"></div>
-                <span class="big-number">3</span>
-                Mail to <span class="shipping-site-url">competitivecyclist.com</span>
-              </div>
       
-              <div class="left-col">
-                <ul class="instructions">
-                  <li>Pack everything up, including tags and the original invoice (or printout of this page).</li>
-                  <li>Write your Return Number (RMA) 104496154 on the outside of the package. This speeds up the refund process.</li> 
-                  <li>Slap on the pre-printed label from your invoice or write it yourself then throw it all in the mail.</li>
-                </ul>
+          <div id="tab1--content" class="tab1-content tab1 ui-tabs-panel">
+            <p>Click Print UPS Label, attach the label to your return package, and drop the package off at a UPS location. Use the <a href="https://www.ups.com/dropoff" target="_blank">UPS Store Locator.</a></p>
+            <p>If your return qualifies for a refund, we will reimburse you the refund amount via your original payment method, minus $6.99 for the UPS label.</p>
+            <button>Print UPS Label</button>
+            <div class="tab1__steps">
+              <div class="step__item">
+                <img src="" class="step__icon"></img>
+                <span>1. Package your return in a box</span>
+              </div>
+              <div class="step__item">
+                <img src="" class="step__icon"></img>
+                <span>2.Attach UPS label to box</span>
+              </div>
+              <div class="step__item">
+                <img  src="" class="step__icon"></img>
+                <span>3. Drop package off at a UPS Location</span>
+              </div>
+            </div>
+            <span class="reminder--step1">* USA only</span>
+          </div>
+      
+          <div id="tab2--content" class="tab-content tab2 ui-tabs-panel">
+            <div class="step__item">
+              <div class="step__item--tab2">
+                <img src="" class="icon box-icon">
+                <span>1.Package your return in a box</span> 
+              </div>
+              <div class="step__item--tab2">
+                <img src="" alt="" >
+                <span class="big-number">2.Write Return Number on box</span>
+              </div>
+              <div class="step__item--tab2">
+                <img src="" alt="">
+                <span class="big-number">3.Mail to competitivecyclist.com</span>
+              </div>
+              <ul class="instructions">
+                <li>Pack everything up, including tags and the original invoice (or printout of this page).</li>
+                <li>Write your Return Number (RMA) 104496154 on the outside of the package. This speeds up the refund process.</li> 
+                <li>Slap on the pre-printed label from your invoice or write it yourself then throw it all in the mail.</li>
+              </ul>
                 <div class="address">
-                  <p><b class="shipping-site-url">competitivecyclist.com</b></p>
+                  <p class="adrress__direction">competitivecyclist.com</p>
                   <p>2607 South 3200 West, Suite A</p>
                   <p>West Valley City, UT 84119</p>
                 </div>
               </div>
-              <div class="right-col">
-                <div class="rma-box">
-                  <p class="rma-box-notice">Make sure to mark your box with the Return Number</p>
-                  <p class="rma-box-label">Your Return Number (RMA) is</p>
-                  <p class="rma-box-number"><b>104496154</b></p>
+              
+              <div class="right--colum">
+                <div class="text__content--item">
+                  <p>Make sure to mark your box with the Return Number</p>
+                  <p class="text__content--item">Your Return Number (RMA) is</p>
+                  <p class="text__content--item">104496154</p>
                 </div>
-                <span class="tiny">* We recommend you insure and send via Parcel Post or UPS. COD not accepted.</span>
+                <span class="reminder">* We recommend you insure and send via Parcel Post or UPS. COD not accepted.</span>
               </div>
             </div>
           </div>
-          
-          <p class="notice">
-            Need more information about our returns policy, returns shipping, or making a return? Visit the <a href="#">Returns Help Page.</a>
-          </p>
-
+          <p class="notice">Need more information about our returns policy, returns shipping, or making a return? Visit the <a href="#">Returns Help Page.</a></p>
+        </div>
       </div>
 </body>
 </html>
